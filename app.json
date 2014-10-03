@@ -1,0 +1,22 @@
+{
+  "name": "Factor.io example-workflows",
+  "description": "This is the Heroku-deployable version of Factor.io's example-workflows",
+  "keywords": [
+    "Factor",
+    "Factor.io",
+    "Heroku"
+  ],
+  "repository": "https://github.com/factor-io/example-workflows",
+  "success_url": "/",
+  "scripts": {
+  },
+  "env": {
+    "WEBHOOK_URL":{
+      "description": "The URL for where to POST when the workflow runs. Get one from http://requestb.in/",
+      "required":true,
+      "value":"http://requestb.in/ta2872ta"
+    }
+  },
+  "addons": [
+  ]
+}
